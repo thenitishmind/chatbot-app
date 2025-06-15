@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--background-white);
+  color: var(--text-primary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 64px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.nav-title {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.nav-button {
+  color: var(--text-secondary);
+  padding: 0.6rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: var(--background-light);
+  color: var(--primary-color);
+}
+
+.nav-button.new-chat {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.6rem 1rem;
+}
+
+.nav-button.new-chat:hover {
+  background-color: var(--primary-dark);
+  color: white;
+}
+
+.menu-button {
+  padding: 0.6rem;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .nav-button span {
+    display: none;
+  }
+  
+  .nav-button.new-chat {
+    padding: 0.6rem;
+  }
+  
+  .nav-title {
+    font-size: 1.2rem;
+  }
+  
+  .navbar {
+    padding: 0.6rem 1rem;
+  }
+} 
