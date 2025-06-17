@@ -1,4 +1,4 @@
-# BizLoan Chatbot
+# BizLoan Chatbot.
 
 A sophisticated AI-powered chatbot designed to assist users with business loan inquiries. Built with React, Node.js, OpenAI GPT-3.5, and supports both MongoDB and PostgreSQL.
 
