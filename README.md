@@ -1,4 +1,4 @@
-# BizLoan Chatbot.
+# Chatbot.
 
 A sophisticated AI-powered chatbot designed to assist users with business loan inquiries. Built with React, Node.js, OpenAI GPT-3.5, and supports both MongoDB and PostgreSQL.
 
@@ -65,28 +65,8 @@ A sophisticated AI-powered chatbot designed to assist users with business loan i
 PORT=5000
 NODE_ENV=development
 
-# Database Configuration
-# For MongoDB
-MONGODB_URI=mongodb://localhost:27017/bizloan-chatbot
 
-# For PostgreSQL
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=your_password
-POSTGRES_DB=bizloan_chatbot
-POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
 
-# Authentication
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRY=24h
-
-# OpenAI Configuration
-OPENAI_API_KEY=your_openai_api_key
-
-# File Upload Configuration
-MAX_FILE_SIZE=5242880 # 5MB
-UPLOAD_DIR=uploads
-```
 
 #### Frontend (.env)
 ```bash
@@ -98,8 +78,8 @@ REACT_APP_SOCKET_URL=http://localhost:5000
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bizloan-chatbot.git
-cd bizloan-chatbot
+git clone https://github.com/yourusername/chatbot.git
+cd chatbot
 ```
 
 2. Install dependencies:
@@ -120,7 +100,7 @@ npm install
 
 # For PostgreSQL
 # Create database
-createdb bizloan_chatbot
+createdb chatbot
 ```
 
 4. Start the application:
